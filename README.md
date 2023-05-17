@@ -1,6 +1,6 @@
 # Bienvenido!
 
-Esta es la actividad individual 2 del modulo 4 del bootcamp Desarrollo de Aplicaciones Full Stack JavaScript Trainee v2.0.
+Esta es la actividad individual 3 del modulo 4 del bootcamp Desarrollo de Aplicaciones Full Stack JavaScript Trainee v2.0.
 
 
 # Pasos para ejecutar
