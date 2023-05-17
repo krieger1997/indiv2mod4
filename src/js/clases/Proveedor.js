@@ -1,23 +1,15 @@
 // import { Articulo } from "./Articulo";
- class Proveedor {
-    constructor(nombre, email, articulo={}, telefono) {
+class Proveedor {
+    constructor(nombre, articulo = {}, precio) {
         this._nombre = nombre;
-        this._email = email;
         this._articulo = articulo;
-        this._telefono = telefono;
+        this._precio = precio;
     }
     get nombre() {
         return this._nombre;
     }
     set nombre(nombre) {
         this._nombre = nombre;
-    }
-
-    get email() {
-        return this._email;
-    }
-    set email(email) {
-        this._email = email;
     }
 
     get articulo() {
@@ -27,18 +19,19 @@
         this._articulo = articulo;
     }
 
-    get telefono() {
-        return this._telefono;
+    get precio() {
+        return this._precio;
     }
-    set telefono(telefono) {
-        this._telefono = telefono;
+    set precio(precio) {
+        this._precio = precio;
     }
 
-    getInfoProveedor(){
-        return `Proveedor: ${this._nombre}, teléfono: ${this._telefono}`;
+
+    getInfoProveedor() {
+        return `Proveedor: ${this._nombre}, teléfono: ${this._articulo.telefono}`;
     }
 
 }
 
 
-export{Proveedor}
+export { Proveedor }

@@ -1,8 +1,9 @@
 
 class Articulo{
-    constructor(nombre, precio) {
+    constructor(nombre, email, telefono) {
         this._nombre = nombre;
-        this._precio = precio;
+        this._email = email;
+        this._telefono = telefono;
     }
     get nombre() {
         return this._nombre;
@@ -11,12 +12,21 @@ class Articulo{
         this._nombre = nombre;
     }
 
-    get precio() {
-        return this._precio;
+    get email() {
+        return this._email;
     }
-    set precio(precio) {
-        this._precio = precio;
+    set email(email) {
+        this._email = email;
     }
+
+    get telefono() {
+        return this._telefono;
+    }
+    set telefono(telefono) {
+        this._telefono = telefono;
+    }
+
+
 
 }
 export{Articulo}
